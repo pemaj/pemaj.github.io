@@ -1,10 +1,10 @@
 # Site
-title:              My Blog
-bio:                'Minimal, one column jekyll theme.'
+title:              Pedro Matias de Araújo
+bio:                'A guy with many mistakes, but can help in NOT do things'
 description:        "A Blog about stuffs"
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/me.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
