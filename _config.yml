@@ -40,9 +40,9 @@ disqus_shortname:   pmdragon
 email:              pedrom.araujo@outlook.com
 # twitter:            username
 # facebook:           username
-github-url:         https://github.com/pmdragon
+github-url:         pmdragon
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-linkedin:           https://www.linkedin.com/in/pedromaraujo/
+linkedin:           pedromaraujo
 #xing:              username
 # instagram:          username
 #lastfm:            username
@@ -60,7 +60,7 @@ linkedin:           https://www.linkedin.com/in/pedromaraujo/
 #codepen:           username
 #keybase:           username
 #xmpp:              username@server.com
-#hackernews:        username
+hackernews:         pmdragon
 
 # Gems
 gems:
