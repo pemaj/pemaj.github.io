@@ -6,7 +6,7 @@ date: 2018-03-14
 comments: false
 ---
     
-<center><a href="https://pmdragon.github.io"><b>Here</b></a> is a blog about my older things than I love study</center>
+This is a blog about my older things than I love study</center>
 <center>My focus is make a vision about some things than is hard find in intermediate language, and for me revision all them, so comments are welcome</center>
 
 ## Some things can find here
@@ -15,5 +15,5 @@ comments: false
 * Cripto
 * Security
 * Dev
-* Languages (I my studying French and Japanese)
+* Languages (I studying French and Japanese)
 

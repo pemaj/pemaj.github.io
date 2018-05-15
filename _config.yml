@@ -1,12 +1,12 @@
 # Site
-title:              Pedro Matias de Araújo
-bio:                'A guy with many mistakes, but learning from them'
+title:              PEDRO@MATIAS:~$
+bio:                '$ WHOAMI'
 description:        "A Blog about tech, math and other weird things"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/me.jpg'
 background:         'assets/img/background2.jpg'
-tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://pmdragon.github.io
 
