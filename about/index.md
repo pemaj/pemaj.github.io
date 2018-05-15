@@ -1,21 +1,19 @@
 ---
 layout: page
-title: Blog
+title: This Blog
 tags: [about, Jekyll, theme, moon]
 date: 2018-03-14
 comments: false
 ---
     
-<center><a href="https://pmdragon.github.io"><b>Moon</b></a> is a minimal, one column jekyll blog.</center>
+<center><a href="https://pmdragon.github.io"><b>Here</b></a> is a blog about my older things than I love study</center>
+<center>My focus is make a vision about some things than is hard find in intermediate language, and for me revision all them, so comments are welcome</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Some things can find here
+* Math
+* Tech
+* Cripto
+* Security
+* Dev
+* Languages (I my studying French and Japanese)
+
