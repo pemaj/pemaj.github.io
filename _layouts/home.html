@@ -34,17 +34,6 @@ layout: compress
             overflow: hidden;
         }
 
-
-        #nav {
-            margin: 1px 8px;
-            float: left;
-        }
-
-        #view {
-            margin: 2px 0 0 110px;
-            display: inline-block;
-        }
-
         #body {
             font-family: Andale Mono, monospace;
             line-height: 1em;
@@ -57,133 +46,12 @@ layout: compress
             line-height: 1.5em;
         }
 
-            #body p {
-                color: #63de00 !important;
-            }
-
-        @keyframes blink {
-            0% {
-                background: rgba(99,222,0,100);
-            }
-
-            100% {
-                background: rgba(99,222,0,0);
-            }
-        }
-
-        @-webkit-keyframes blink {
-            0% {
-                background: rgba(99,222,0,100);
-            }
-
-            100% {
-                background: rgba(99,222,0,0);
-            }
-        }
-
-        @-moz-keyframes blink {
-            0% {
-                background: rgba(99,222,0,100);
-            }
-
-            100% {
-                background: rgba(99,222,0,0);
-            }
-        }
-
-        .cursor {
-            background: #63de00;
-            display: inline-block;
-            width: 11px;
-            height: 19px;
-            margin-bottom: -3px;
-        }
-
-        #body:hover .cursor {
-            -webkit-animation-name: blink;
-            -webkit-animation-duration: 1.5s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-name: blink;
-            -moz-animation-duration: 1.5s;
-            -moz-animation-iteration-count: infinite;
-        }
-
-        #body p::-webkit-selection {
-            background: #0b209e;
-        }
-
-        #body p::selection {
-            background: #0b209e;
-        }
-
-        #body p::-moz-selection {
-            background: #0b209e;
-        }
-
         #body p {
+                color: #63de00 !important;
             margin-top: 5px;
             margin-bottom: 5px;
             font-size: 13px;
         }
-
-        #content {
-            float: left;
-            margin-top: 1px;
-        }
-
-        #foot {
-            height: 23px;
-            width: 100%;
-            float: left;
-            background-image: -webkit-gradient(linear,left bottom,left top,color-stop(1, #cbcbcb),color-stop(0, #a7a7a7));
-            border-top: 1px solid #515151;
-            border-radius: 0 0 5px 5px;
-        }
-
-            #foot .handle {
-                width: 11px;
-                height: 11px;
-                float: right;
-                margin: 6px;
-                overflow: hidden;
-            }
-
-        .handle .grip {
-            -webkit-transform: rotate(45deg) scaley(3);
-            margin: 2px 0 0 2px;
-            color: #646464;
-            text-shadow: 1px 1px 0 #c6c6c6;
-            font-size: 14px;
-        }
-
-        .icon {
-            width: 86px;
-            height: 100px;
-            margin: 20px;
-            float: left;
-            font-family: "Myriad Pro", sans-serif;
-            text-align: center;
-            font-size: 12px;
-        }
-
-            .icon .frame {
-                width: 82px;
-                height: 82px;
-                border-radius: 5px;
-                border: 2px solid transparent;
-            }
-
-            .icon .name {
-                color: #000;
-                padding-top: 3px;
-                border-radius: 15px;
-                width: 55px;
-                margin: 5px 0 0 15px;
-            }
-
-            .icon .folder {
-                margin: 15px 0 0 6px;
-            }
     </style>
 </head>
 <body>
@@ -227,7 +95,6 @@ layout: compress
                             Last login: Thu May 24 12:18:16 on ttys006 <br />
                             Doms-MacBook-Pro:flight dom$
                         </p>
-                        <div class="cursor"></div>
                     </div>
                 </div>
             </div>
