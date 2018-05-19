@@ -13,7 +13,7 @@ url:                https://pmdragon.github.io
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
-highlighter:        black
+highlighter:        rouge
 kramdown:
   auto_ids:         true
   footnote_nr:      1
