@@ -46,6 +46,24 @@ layout: compress
             margin-bottom: 5px;
             font-size: 13px;
         }
+
+        .cursor {
+            background: #63de00;
+            display: inline-block;
+            width: 11px;
+            height: 19px;
+            margin-bottom: -3px;
+        }
+
+        #body:hover .cursor {
+            -webkit-animation-name: blink;
+            -webkit-animation-duration: 1.5s;
+            -webkit-animation-iteration-count: infinite;
+            -moz-animation-name: blink;
+            -moz-animation-duration: 1.5s;
+            -moz-animation-iteration-count: infinite;
+        }
+
     </style>
 </head>
 <body>
@@ -89,7 +107,9 @@ layout: compress
                             Last login: Thu May 24 12:18:16 on ttys006 <br />
                             Doms-MacBook-Pro:flight dom$
                         </p>
+                        <div class="cursor"></div>
                     </div>
+
                 </div>
             </div>
         </div>
