@@ -61,7 +61,7 @@ layout: compress
         }
 
             .shell-body li:before {
-                content: '$';
+                content: {{ site.title }};
                 position: absolute;
                 left: 0;
                 top: 0;
@@ -109,17 +109,14 @@ layout: compress
          </a>
      </h3>
         -->
-                <h3 class="title">
+
                     <div class="shell-wrap">
-                        <p class="shell-top-bar">/Users/pjlangley/Documents/websites/</p>
+                        <p class="shell-top-bar">{{ site.title }}</p>
                         <ul class="shell-body">
-                            <li>cd&nbsp;/Users/pjlangley/Documents/websites/codechewing.com/git/css-shell/demo/</li>
-                            <li>cd ../../../../</li>
-                            <li>pwd</li>
-                            <li>/Users/pjlangley/Documents/websites/</li>
+                            <li>cat me.py</li>
+                            <li>python me.py</li>
                         </ul>
                     </div>
-                </h3>
             </div>
         </div>
     </header>
