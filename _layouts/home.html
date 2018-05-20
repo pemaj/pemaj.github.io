@@ -116,9 +116,10 @@ layout: compress
         </a>
     </h3>
        -->
+            </div>
                 <div id="window">
                     <div id="body">
-<!--                        <p>
+                        <p>
                             pedro@matias:~$ cat me.py <br />
                         </p>
                         <pre>
@@ -128,24 +129,24 @@ class PedroMatiasDeAraujo(Developer,MathematicianAmateur):
     #Person
     self.setName("Pedro Matias de Araújo")
 
-    self.setLanguages("Portuguese", "English")
-    self.setLearningLanguages("French", "Japanese")
+    self.addLanguages("Portuguese", "English")
+    self.addLearningLanguages("French", "Japanese")
 
     #Developer
-    self.setLanguagesProgramming("Java","Python","C#","Shell Script","SQL")
+    self.addLanguagesProgramming("Java","Python","C#","Shell Script","SQL")
 
     #Mathematician
-    self.setTheory("Game Theory", "Coding theory")
+    self.addTheory("Game Theory", "Coding theory")
 
     def live(self):
         while (self.haveSucess() || self.makeABigThingHelpAnothers()) :
-    		super(self).live()
-    		self.study()
-    		self.workHard()
+            super(self).live()
+            self.study()
+            self.workHard()
 
 me=PedroMatiasDeAraujo()
 me.live()
-                        </pre> -->
+                        </pre> 
                         <p>
                             pedro@matias:~$ python me.py <br />
                         </p>
@@ -153,7 +154,7 @@ me.live()
                     </div>
 
                 </div>
-            </div>
+            
         </div>
     </header>
     {% include scripts.html %}
