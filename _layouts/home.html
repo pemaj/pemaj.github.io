@@ -57,13 +57,6 @@ layout: compress
             }
         }
 
-        .waitingForConnection {
-            -webkit-animation-name: blinker;
-            -webkit-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
-            -webkit-animation-duration: 1.7s;
-        }
-
         @keyframes blinker {
             50% {
                 opacity: 0;
@@ -76,7 +69,7 @@ layout: compress
             width: 11px;
             height: 19px;
             margin-bottom: -3px;
-            animation: blinker 1s linear infinite;
+            animation: blinker 1.5s linear infinite;
         }
 
     </style>
@@ -119,8 +112,6 @@ layout: compress
                 <div id="window">
                     <div id="body">
                         <p>
-                            pedro@matias:~$ cat me.py <br />
-                            //Soon <br />
                             pedro@matias:~$ python me.py <br />
                         </p>
                         <div class="cursor"></div>
