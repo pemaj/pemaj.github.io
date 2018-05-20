@@ -47,18 +47,36 @@ layout: compress
             font-size: 13px;
         }
 
+        @-webkit-keyframes blinker {
+            from {
+                opacity: 1.0;
+            }
+
+            to {
+                opacity: 0.0;
+            }
+        }
+
+        .waitingForConnection {
+            -webkit-animation-name: blinker;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: cubic-bezier(.5, 0, 1, 1);
+            -webkit-animation-duration: 1.7s;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
         .cursor {
             background: #63de00;
             display: inline-block;
             width: 11px;
             height: 19px;
             margin-bottom: -3px;
-            -webkit-animation-name: blink;
-            -webkit-animation-duration: 1.5s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-name: blink;
-            -moz-animation-duration: 1.5s;
-            -moz-animation-iteration-count: infinite;
+            animation: blinker 1s linear infinite;
         }
 
     </style>
