@@ -47,6 +47,13 @@ layout: compress
             font-size: 13px;
         }
 
+        #body pre {
+            color: #63de00 !important;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 13px;
+        }
+
         @-webkit-keyframes blinker {
             from {
                 opacity: 1.0;
@@ -115,31 +122,31 @@ layout: compress
                             pedro@matias:~$ cat me.py <br />
                         </p>
                         <pre>
-                        import GodsProject
+import GodsProject
 
-                        class PedroMatiasDeAraujo(Developer,MathematicianAmateur):
-                            #Person
-                        	self.setName("Pedro Matias de Araújo")
-                        	
-                        	self.setLanguages("Portuguese", "English")
-                        	self.setLearningLanguages("French", "Japanese")
-                        	
-                        	#Developer
-                        	self.setLanguagesProgramming("Java","Python","C#","Shell Script","SQL")
-                        	
-                        	#Mathematician
-                        	self.setTheory("Game Theory", "Coding theory")
-                        	
-                        	
-                        	def live(self):
-                        	    while (self.haveSucess() || self.makeABigThingHelpAnothers()) :
-                        			super(self).live()
-                        			self.study()
-                        			self.workHard()
-                        			
-                        
-                        me=PedroMatiasDeAraujo()
-                        me.live()
+class PedroMatiasDeAraujo(Developer,MathematicianAmateur):
+    #Person
+	self.setName("Pedro Matias de Araújo")
+	
+	self.setLanguages("Portuguese", "English")
+	self.setLearningLanguages("French", "Japanese")
+	
+	#Developer
+	self.setLanguagesProgramming("Java","Python","C#","Shell Script","SQL")
+	
+	#Mathematician
+	self.setTheory("Game Theory", "Coding theory")
+	
+	
+	def live(self):
+	    while (self.haveSucess() || self.makeABigThingHelpAnothers()) :
+			super(self).live()
+			self.study()
+			self.workHard()
+			
+
+me=PedroMatiasDeAraujo()
+me.live()
                         </pre>
                         <p>
                             pedro@matias:~$ python me.py <br />
