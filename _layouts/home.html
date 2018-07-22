@@ -134,7 +134,7 @@ class PedroMatiasDeAraujo(Developer,MathematicianAmateur):
     self.addTheory("Game Theory", "Coding Theory")
 
     def live(self):
-        while (self.haveSucess() || self.makeBigThingToHelpOthers()) :
+        while (not self.haveSucess() || not self.makeBigThingToHelpOthers()) :
             super(self).live()
             self.searchKnowlegde()
             self.workHard() 
