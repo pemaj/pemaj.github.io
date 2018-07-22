@@ -137,7 +137,8 @@ class PedroMatiasDeAraujo(Developer,MathematicianAmateur):
     self.addResearchProject("A walk through the universe of Prime numbers")
 
     def live(self):
-        while (not self.haveSucess() && not self.makeOneBigThingToHelpOthers()) :
+        while (not self.haveSucess()
+                && not self.makeOneBigThingToHelpOthers()) :
             super(self).live()
             self.searchKnowlegde()
             self.workHard()
