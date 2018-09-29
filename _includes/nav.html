@@ -15,6 +15,10 @@
                     <li>
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
+                    {% if site.medium %}
+                    <li>
+                        <a href="http://medium.com/in/{{ site.medium }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-medium-square"></i> Medium</a>
+                    </li>{% endif %}
                     {% if site.twitter %}
                     <li>
                         <a href="http://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
