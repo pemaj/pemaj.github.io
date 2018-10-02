@@ -19,3 +19,5 @@ Isso se as coisas do seu interesse for algo referente
 * Desenvolvimento
 * Linguagens
 
+Qualquer dúvida, elogio, sugestão. Meu contato está na homepage da pagina. 
+
