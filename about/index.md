@@ -1,19 +1,21 @@
 ---
 layout: page
-title: This Blog
-tags: [about, Jekyll, theme, moon]
+title: This Lonely place
+tags: [about, Jekyll, security, blog]
 date: 2018-03-14
 comments: false
 ---
     
-<center>This blog is about things that I love to study.</center>
-<center>My focus is to share a new perspective about things that I couldn't find easily on the internet , so all opinions and comments are welcome here.</center>
+Hi, if you are here for english posts, please go to [medium](https://medium.com/@pmdragon).
+Here is for my contribituion with the Brazilian community.
+A day (maybe) I will configure to translate automatic this page, but this day is not today. (Sorry)
 
-## Things you can find here
-* Math
-* Tech
+Então, se voce está lendo isso, embora a maioria das coisas estão em inglês, é um blog português então pode colocar no seu feed rss que as vezes eu posto algumas coisas que podem ser de seu interesse.
+Isso se as coisas do seu interesse for algo referente
+* Matematica
+* Tecnologia
 * Cripto
-* Security
-* Dev
-* Languages
+* Securança
+* Desenvolvimento
+* Linguagens
 
