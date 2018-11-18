@@ -14,10 +14,6 @@ comments: true
   <a href="https://medium.com/@pmdragon/euler-fermat-and-primality-test-bbf653ecb99c">English version</a>
 </p>
 
-$$
-a^{p-1}\equiv
-$$
-
 Na teoria dos números, A função totiente de **Euler**, conta o número de
 inteiros positivos menores que m e relativamente primos a *m*. Para um número primo
 *p*, *φ(p)=p-1*.
