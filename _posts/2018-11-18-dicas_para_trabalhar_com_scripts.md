@@ -8,8 +8,6 @@ tags: [bash, dicas, test, script]
 comments: true
 ---
 
-# Dicas para trabalhar com scripts bash
-
 <p align="center">
   <a href="https://medium.com/@pmdragon/tips-for-working-with-bash-scripts-ff85c0420ac7">English version</a>
 </p>
