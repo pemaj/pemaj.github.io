@@ -22,5 +22,5 @@ Como por exemplo:
 * Desenvolvimento
 * Linguagens
 
-Qualquer dúvida, elogio, sugestão Meus contatos estão na homepage da página. 
+Para qualquer dúvida, elogio, sugestão, meus contatos estão na homepage. 
 
