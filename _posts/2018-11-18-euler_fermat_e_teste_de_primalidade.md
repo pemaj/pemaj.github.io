@@ -14,7 +14,6 @@ comments: true
   <a href="https://medium.com/@pmdragon/euler-fermat-and-primality-test-bbf653ecb99c">English version</a>
 </p>
 
-
 Na teoria dos números, A função totiente de **Euler**, conta o número de
 inteiros positivos menores que m e relativamente primos a $m$. Para um número primo
 $p$, $\varphi(p)=p-1$.
@@ -24,7 +23,7 @@ k \leq n$ para o qual o *mdc(n, k)= 1*.
 
 ## O que é o pequeno teorema de **Fermat**
 
-[Pequeno teorema de Fermat](https://en.wikipedia.org/wiki/Fermat's_little_theorem)
+O [Pequeno teorema de Fermat](https://en.wikipedia.org/wiki/Fermat's_little_theorem)
 diz que se $p$ é primo e $a$ não é um múltiplo de $p$, então
 
 $$
@@ -42,7 +41,7 @@ discussões
 
 ## A prova de generalização
 
-Seja *r=φ(n)*  e *b₀, b₁, ..., bᵣ,* números inteiros, primos ente si dois a dois,
+Seja $r=\varphi(n)$  e *b₀, b₁, ..., bᵣ,* números inteiros, primos ente si dois a dois,
 e todos primos com *n*. Então *ab₀, ab₁, ..., abᵣ,* ainda será congruente *(mod n)*, para 
 *i=1,2,...r*.
 
@@ -54,9 +53,7 @@ Então,
 
 ![](https://cdn-images-1.medium.com/max/800/1*R5O59TzgeqQVCMkcx2roAQ.png)
 
-Assim temos que, *(aʳ-1) ≡ 0 (mod n)* e como *aʳ ≡ 1 (mod n)* e  *r = φ(n)*, então
-
-![](https://cdn-images-1.medium.com/max/800/1*Ok_DVBZh52E-ES2yp3AOgQ.png)
+Assim temos que, $(a^{r}-1) \equiv 0 \pmod{n}$ e como $a^{r} \equiv 1 \pmod{n}$ e  $r = varphi(n)$, então $a^{\varphi(n)} \equiv \pmod{n}$
 
 *****
 
@@ -65,15 +62,15 @@ Assim temos que, *(aʳ-1) ≡ 0 (mod n)* e como *aʳ ≡ 1 (mod n)* e  *r = φ(n
 Uma das melhores coisas sobre esse teorema é o teste da primalidade.
 
 O **contrapositivo** do pequeno teorema de Fermat é útil: se a congruência
-*aᵖ⁻¹ ≡ 1 (mod p)*  não é verdadeiro, então *p* é *não* primo ou *a* é
+$a^{p-1} \equiv 1 \pmod{p}$  não é verdadeiro, então *p* é *não* primo ou *a* é
 um múltiplo de *p*. Na prática, *a* é muito menor que *p*, e assim pode-se
 conclua que *p* não é primo.
 
 Tecnicamente, este é um teste para não primalidade: só pode provar que um número é
 não primo. Por exemplo, se *2ᵖ⁻¹ ≢ 1 (mod  p)*, então sabemos que *p* não é primo.
-Mas se *2ᵖ⁻¹  ≡  1 (mod  p )* então sabemos que o teste não falhou;
+Mas se $2^{p-1} \equiv 1 \pmod{p}$ então sabemos que o teste não falhou;
 mas não temos certeza se *p* é primo ou não. Então, nós tentamos outro valor de
-*a*, por exemplo 5, e testamos se *5ᵖ⁻¹  ≡  1 (mod p)*.
+*a*, por exemplo 5, e testamos se $5^{p-1} \equiv 1 \pmod{p}$.
 
 Em teoria parece perfeito, então toda a teoria da criptografia foi arruinada? Claro que não,
 porque mesmo fácil de entender, mas olhando em termos computacionais, isto é
@@ -82,7 +79,7 @@ problemático, por exemplo, para um pequeno número como 223, e para *a* com val
 
 ![](https://cdn-images-1.medium.com/max/800/1*l1R6OLprvEaE8bu_C-Ulrw.png)
 
-Sabemos que 223 é primo, mas 2²²³ é difícil de calcular mesmo em robustos
-computadores, então números como 2321412341243123423413263466567678352323 é mais difícil
+Sabemos que 223 é primo, mas $2^{223}$ é difícil de calcular mesmo em robustos
+computadores, então números como $2^{2321412341243123423413263466567678352323}$ é mais difícil
 determinar, mas toda a teoria é útil, com muitas implicações na criptografia
 e teoria dos números. Eu vou discutir isso em outros posts.
