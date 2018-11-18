@@ -14,28 +14,27 @@ comments: true
   <a href="https://medium.com/@pmdragon/euler-fermat-and-primality-test-bbf653ecb99c">English version</a>
 </p>
 
+$$
+a^{p-1}\equiv
+$$
 
 Na teoria dos números, A função totiente de **Euler**, conta o número de
-inteiros positivos menores que m e relativamente primos a $m$. Para um número primo
-$p$, $\varphi(p)=p-1$.
+inteiros positivos menores que m e relativamente primos a *m*. Para um número primo
+*p*, *φ(p)=p-1*.
 
-Pode ser definido mais formalmente como o número de inteiros $k$ no intervalo $1 <
-k \leq n$ para o qual o *mdc(n, k)= 1*.
+Pode ser definido mais formalmente como o número de inteiros *k* no intervalo *1 ≤
+k ≤ n* para o qual o maior divisor comum *mdc(n, k)* é igual a 1.
 
 ## O que é o pequeno teorema de **Fermat**
 
 [Pequeno teorema de Fermat](https://en.wikipedia.org/wiki/Fermat's_little_theorem)
-diz que se $p$ é primo e $a$ não é um múltiplo de $p$, então
+diz que se *p* é primo e *a* não é um múltiplo de *p*, então
 
-$$
-a \equiv 1 \pmod{p}
-$$
+![](https://cdn-images-1.medium.com/max/800/1*CotGjw6Dd51xqzfvJvSNFA.jpeg)
 
 **A generalização de Euler** do pequeno teorema de Fermat diz que se *a* um primo relativo para *m*, então
 
-$$
-a^{\varphi(m)} \equiv 1 \pmod{m}
-$$
+![](https://cdn-images-1.medium.com/max/800/1*BPy80qeKAXp309Edp0qolA.jpeg)
 
 > A função totiente de Euler é **multiplicativa**, isto é, se *a* e *b* são entre si, então *φ(ab) = φ(a)φ(b)*. Nós usaremos esse fato em outras
 discussões
