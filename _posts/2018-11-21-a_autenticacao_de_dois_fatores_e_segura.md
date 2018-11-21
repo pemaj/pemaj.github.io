@@ -2,6 +2,7 @@
 layout: post
 title: "A autenticação de dois fatores é segura?"
 date: 2018-09-16
+excerpt: "A segurança de autenticação de dois fatores"
 tags: [segurança]
 comments: true
 ---
