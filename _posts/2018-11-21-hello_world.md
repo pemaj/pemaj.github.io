@@ -2,8 +2,8 @@
 layout: post
 title: "H3ll0 W0rld!"
 date: 2018-01-22
+excerpt: "Uma simples mensagem inicial"
 published: true
-excerpt:"uma simples mensagem inicial"
 tags: [blog]
 comments: true
 ---
