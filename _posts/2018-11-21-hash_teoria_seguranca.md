@@ -3,6 +3,7 @@ layout: post
 title: "Uma visão geral sobre Funções HASH : Teoria e segurança"
 date: 2018-08-31
 published: true
+excerpt: "Uma visão geral sobre Funções HASH : Teoria e segurança"
 tags: [criptografia, segurança, hash]
 comments: true
 ---
