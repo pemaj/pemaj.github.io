@@ -7,6 +7,7 @@ published: true
 tags: [RSA, Criptografia, Python, Prova Matemática]
 comments: true
 ---
+![](http://www.paymentscardsandmobile.com/wp-content/uploads/2018/01/Cryptography.jpg)
 
 <p align="center">
   <a href="https://medium.com/@pmdragon/why-rsa-criptography-works-ea8699f79779">English version</a>
