@@ -3,7 +3,7 @@ layout: post
 title: "H3ll0 W0rld!"
 date: 2018-01-01
 published: true
-expect:"uma simples mensagem inicial"
+excerpt:"uma simples mensagem inicial"
 tags: [blog]
 comments: true
 ---
