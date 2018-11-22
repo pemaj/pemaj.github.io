@@ -8,7 +8,7 @@ tags: [criptografia, segurança, hash]
 comments: true
 ---
 <p align="center">
-  <a href="https://medium.com/@pmdragon/uma-visão-geral-sobre-funções-hash-teoria-e-segurança-c3f9ae74755e">Texto original</a>
+  <a href="https://medium.com/@pmdragon/an-overview-about-hash-functions-theory-and-security-21e52ddc9993">English version</a>
 </p>
 
 A definição mais comum para funções de *hash* seria “uma função que mapeia uma
@@ -28,8 +28,7 @@ Para uma aplicação criptográfica, há três propriedades desejáveis:
 
 #### Resistência à colisão
 
-É computacionalmente inviável encontrar qualquer par *(x, y)* tal que *H(x) =
-H(y)*
+É computacionalmente inviável encontrar qualquer par *(x, y)* tal que *H(x)=H(y)*
 
 #### Resistência à primeira inversão
 
@@ -39,7 +38,7 @@ que *H(x)=h*.
 #### Resistência à segunda inversão
 
 Para qualquer bloco de dados x, é computacionalmente inviável encontrar *y*
-diferente de *x*, tal que *H(y) = H(x)*.
+diferente de *x*, tal que *H(y)=H(x)*.
 
 A situação ideal é que todo valor de *hash* gerado seja realmente único para
 cada valor de entrada, mas isso não é possível. Nas funções de *hash* os valores
