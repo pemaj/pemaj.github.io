@@ -25,7 +25,7 @@ números, e fatorar um número desta magnitude é muito lento.
 
 Para codificar a mensagem, precisamos de *n = pq* e um inteiro positivo *e* que deve ser
 reversível módulo *φ(n)*. [Nós conversamos sobre a função de trabalho de Euler
-antes.](https://pmdragon.github.io/euler_fermat_e_teste_de_primalidade/) 
+antes.](https://pemaj.github.io/euler_fermat_e_teste_de_primalidade/) 
 
 Vamos chamar o par de **chaves de codificação** *(n, e)* do sistema RSA. Vamos
 codificar cada bloco de mensagens separadamente e a mensagem final será a sequencia de blocos. 
@@ -78,7 +78,7 @@ que *ed = 1 + kφ (n).* Logo,
 
 ![](https://cdn-images-1.medium.com/max/800/1*o_rMOeSCjobzqpDrqgH47Q.png)
 
-Se *b* e *n* são primos entre si, então podemos usar [o Teorema de Euler](https://pmdragon.github.io/euler_fermat_e_teste_de_primalidade/):
+Se *b* e *n* são primos entre si, então podemos usar [o Teorema de Euler](https://pemaj.github.io/euler_fermat_e_teste_de_primalidade/):
 
 ![](https://cdn-images-1.medium.com/max/800/1*VBny99LCYz9khl8KHta3Cw.png)
 
@@ -213,4 +213,4 @@ if __name__ == '__main__':
         print ("Your message is:")
         print (decrypt(public, encrypted_msg))
 ```
- O código no github está [aqui](https://github.com/pmdragon/scripts/blob/master/rsa.py)
+ O código no github está [aqui](https://github.com/pemaj/scripts/blob/master/rsa.py)

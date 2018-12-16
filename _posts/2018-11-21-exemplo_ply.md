@@ -27,16 +27,16 @@ precisa de ajuda na implementação de algo usando *PLY*, espero que seja útil
 para alguém.
 
 
->O projeto está no meu [*github*](https://github.com/pmdragon/compiler_python), esse post será baseado nele e por que desenvolvi
+>O projeto está no meu [*github*](https://github.com/pemaj/compiler_python), esse post será baseado nele e por que desenvolvi
 ele dessa forma, escrevendo algumas dúvidas que tive enquanto o desenvolvi.
 
 
 O arquivo principal é o
-[cmm.py](https://github.com/pmdragon/compiler_python/blob/master/cmm.py), é a
+[cmm.py](https://github.com/pemaj/compiler_python/blob/master/cmm.py), é a
 partir dele que será chamada os *parsers* da minha linguagem.
 
 Criei um arquivo chamado de
-[mylexer.py](https://github.com/pmdragon/compiler_python/blob/master/mylexer.py)
+[mylexer.py](https://github.com/pemaj/compiler_python/blob/master/mylexer.py)
 que é o analisador léxico, onde coloquei todas as definições de *token*, ou
 seja, o que é numero, string, comentários, palavras reservadas e coisas
 específicas da análise léxica.
@@ -75,7 +75,7 @@ confusão.
 frente. É dessa forma que o PLY faz a relação.**
 
 Após isso criei o arquivo
-[grammar.py](https://github.com/pmdragon/compiler_python/blob/master/grammar.py),
+[grammar.py](https://github.com/pemaj/compiler_python/blob/master/grammar.py),
 onde está as regras da minha gramática, onde defino as regras de precedência, o
 que é um literal, um programa , variável, e todas as regras da análise sintática
 necessária.
