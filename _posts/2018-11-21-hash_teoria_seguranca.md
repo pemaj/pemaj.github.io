@@ -8,7 +8,7 @@ tags: [criptografia, segurança, hash]
 comments: true
 ---
 <p align="center">
-  <a href="https://medium.com/@pmdragon/an-overview-about-hash-functions-theory-and-security-21e52ddc9993">English version</a>
+  <a href="https://medium.com/@pemtajo/an-overview-about-hash-functions-theory-and-security-21e52ddc9993">English version</a>
 </p>
 
 A definição mais comum para funções de *hash* seria “uma função que mapeia uma

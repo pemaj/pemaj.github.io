@@ -8,7 +8,7 @@ logo:               'assets/img/me.jpg'
 background:         'assets/img/background2.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://pemaj.github.io
+url:                https://pemtajo.github.io
 
 # Jekyll
 permalink:          /:title/
@@ -38,16 +38,16 @@ disqus_shortname:   pmdragon
   #ad-slot:
 #bing-verify:
 email:              pedrom.araujo@outlook.com
-twitter:            xpmdragon
+twitter:            pemtajo
 # facebook:           username
-github-url:         pemaj
+github-url:         pemtajo
 #stackoverflow:      8581307/pedro-matias-de-araújo  # from a "http://stackoverflow.com/users/123456/username" link
 linkedin:           pedromaraujo
 #xing:              username
 # instagram:          username
 #lastfm:            username
 #tumblr:            username
-medium:            '@pmdragon'
+medium:            '@pemtajo'
 #pinterest:         username
 #foursquare:        username
 # steam:              username

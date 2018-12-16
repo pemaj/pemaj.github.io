@@ -108,7 +108,7 @@ alterar a senha.
 
 Força Bruta no caso seria fazer os testes de todas as possibilidades do código
 que foi enviado. Explico um pouco mais sobre força bruta
-[aqui](https://medium.com/@pmdragon/uma-visÃ£o-geral-sobre-funÃ§Ãµes-hash-teoria-e-seguranÃ§a-c3f9ae74755e).
+[aqui](https://medium.com/@pemtajo/uma-visÃ£o-geral-sobre-funÃ§Ãµes-hash-teoria-e-seguranÃ§a-c3f9ae74755e).
 
 Alguns *tokens* 2FA são tão curtos e limitados em caracteres o que os torna
 facilmente obtidos pela força bruta. A menos que existam cofres contra falhas,

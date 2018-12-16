@@ -6,7 +6,7 @@ date: 2018-03-14
 comments: false
 ---
     
-*Hi, if you are here for english posts, please go to [medium](https://medium.com/@pmdragon).*
+*Hi, if you are here for english posts, please go to [medium](https://medium.com/@pemtajo).*
 *Here is for my contribituion with the Brazilian community.*
 *One day (maybe) I will configure to translate automatic this page, but this day is not today. (Sorry)*
 

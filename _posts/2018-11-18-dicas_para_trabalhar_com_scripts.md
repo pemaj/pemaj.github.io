@@ -9,7 +9,7 @@ comments: true
 ---
 
 <p align="center">
-  <a href="https://medium.com/@pmdragon/tips-for-working-with-bash-scripts-ff85c0420ac7">English version</a>
+  <a href="https://medium.com/@pemtajo/tips-for-working-with-bash-scripts-ff85c0420ac7">English version</a>
 </p>
 
 Anos atrás eu estava programando para uma pequena empresa que trabalhava com *sistemas embarcados*. Lá eu escrevi códigos para *shell scripts*, *scripts python* e outro códigos para *sistemas embarcados*, às vezes para clientes que moravam em outro estado com máquinas que eu não tinha acesso, então meus roteiros eram sempre uma *caixa preta* e por isso era muito comum enviar as atualizações por e-mail.

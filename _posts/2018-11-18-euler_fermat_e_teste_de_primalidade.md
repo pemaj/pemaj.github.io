@@ -11,7 +11,7 @@ comments: true
 ![](https://cdn-images-1.medium.com/max/800/1*gyD2i1OZWaKSDWB6rj8nFw.jpeg)
 
 <p align="center">
-  <a href="https://medium.com/@pmdragon/euler-fermat-and-primality-test-bbf653ecb99c">English version</a>
+  <a href="https://medium.com/@pemtajo/euler-fermat-and-primality-test-bbf653ecb99c">English version</a>
 </p>
 
 Na teoria dos números, A função totiente de **Euler**, conta o número de

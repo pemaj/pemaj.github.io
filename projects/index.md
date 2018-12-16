@@ -10,6 +10,6 @@ comments: false
 
 
 
-[My scripts]: <https://github.com/pemaj/scripts>
-[criptopals]: <https://github.com/pemaj/criptopals>
-[MayCry]: <https://github.com/pemaj/MayCry>
+[My scripts]: <https://github.com/pemtajo/scripts>
+[criptopals]: <https://github.com/pemtajo/criptopals>
+[MayCry]: <https://github.com/pemtajo/MayCry>
