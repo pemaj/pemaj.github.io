@@ -21,10 +21,6 @@ Há muitos usos de outros para blockchain, por exemplo, jogos ([CryptoKitties](h
 
 ![](https://cdn-images-1.medium.com/max/805/1*TV_02Syq-SWRChiXigN8Rw.png)
 
-<p align="center">
-  <figcaption> Uma simples imagem sobre o conceito do blockchain</figcaption>
-</p>
-
 O blockchain é, como o nome diz, uma cadeia de blocos, então temos a primeira classe, o Block.
 
 ![](https://cdn-images-1.medium.com/max/1024/1*0D3Uc7yIyR7Kv-n7Fq6vXA.png)
