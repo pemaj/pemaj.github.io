@@ -9,6 +9,9 @@ feature: https://cdn-images-1.medium.com/max/1024/0*QADifoe26ax-QP_9
 date: 2019-04-03
 comments: true
 ---
+<p align="center">
+  <a href="https://dev.to/pemtajo/creating-a-blockchain-with-less-100-code-lines-5aba">English version</a>
+</p>
 
 O conceito básico de blockchain é muito simples: um banco de dados distribuído que mantém uma lista crescente de registros ordenados.
 
@@ -17,7 +20,7 @@ O blockchain é um termo normalmente associado ao Bitcoin e/ou Ethereum, mas blo
 Há muitos usos de outros para blockchain, por exemplo, jogos ([CryptoKitties](https://www.cryptokitties.co/)) ou também blockchain + IOT (Internet das coisas), e este é apenas o começo para o tecnologia.
 
 ![](https://cdn-images-1.medium.com/max/805/1*TV_02Syq-SWRChiXigN8Rw.png)
-<figcaption> Uma simples imagem sobre o conceito do blockchain</figcaption>
+*Uma simples imagem sobre o conceito do blockchain*
 
 O blockchain é, como o nome diz, uma cadeia de blocos, então temos a primeira classe, o Block.
 
