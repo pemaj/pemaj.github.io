@@ -62,6 +62,6 @@ Nesta versão do nosso blockchain, não implementamos a [Prova de Trabalho](http
 
 Eu criei um projeto que você pode seguir no [GitHub](https://github.com/pemtajo/blockchain), vou incrementar cada vez mais o meu blockchain, se tiver interesse basta me seguir, vou escrever alguns posts sobre todo o processo.
 
-_P.S: Eu não sou um expert no blockchain, então qualquer problema, correção de código, ou dicas, isso é muito bem vindo a comentar abaixo e vai ajudar algumas pessoas também. Ou você pode falar comigo em particular no _[_LinkedIn_](https://www.linkedin.com/in/pedromaraujo/)_._
+_P.S: Eu não sou um expert no blockchain, então qualquer problema, correção de código, ou dicas, isso é muito bem vindo a comentar abaixo e vai ajudar algumas pessoas também. Ou você pode falar comigo em particular no [LinkedIn](https://www.linkedin.com/in/pedromaraujo/)._
 
 Te vejo em breve!
