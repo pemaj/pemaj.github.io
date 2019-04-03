@@ -19,8 +19,7 @@ O blockchain é um termo normalmente associado ao Bitcoin e/ou Ethereum, mas blo
 
 Há muitos usos de outros para blockchain, por exemplo, jogos ([CryptoKitties](https://www.cryptokitties.co/)) ou também blockchain + IOT (Internet das coisas), e este é apenas o começo para o tecnologia.
 
-![](https://cdn-images-1.medium.com/max/805/1*TV_02Syq-SWRChiXigN8Rw.png)
-*Uma simples imagem sobre o conceito do blockchain*
+{% include image.html url="https://cdn-images-1.medium.com/max/805/1*TV_02Syq-SWRChiXigN8Rw.png" description="Uma simples imagem sobre o conceito do blockchain" %}
 
 O blockchain é, como o nome diz, uma cadeia de blocos, então temos a primeira classe, o Block.
 
